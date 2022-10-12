@@ -3,7 +3,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/temidaio/tall-components.svg?style=flat-square&logo=packagist)](https://packagist.org/packages/temidaio/tall-components)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/temidaio/tall-components/run-tests/main?style=flat-square&label=automated%20tests&logo=github)](https://github.com/temidaio/tall-components/actions)
 
-A bunch of layout or form components based on [TALL Stack](https://tallstack.dev).
+A bunch of layout and form components based on the [TALL Stack](https://tallstack.dev).
 
 ---
 
