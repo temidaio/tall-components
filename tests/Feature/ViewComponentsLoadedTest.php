@@ -2,14 +2,16 @@
 
 use Illuminate\Support\Facades\Blade;
 
-test('button view component is registered', function () {
-    $output = Blade::render('<x-tall::button />');
+use function Spatie\Snapshots\{assertMatchesSnapshot};
 
-    assertStringContainsString('button', $output);
+test('button view component is registered', function () {
+    $html = Blade::render('<x-tall::button />');
+
+    assertMatchesSnapshot($html);
 });
 
 test('button.primary view component is registered', function () {
-    $output = Blade::render('<x-tall::button.primary />');
+    $html = Blade::render('<x-tall::button.primary />');
 
-    assertStringContainsString('bg-chili-200', $output);
+    assertMatchesSnapshot($html);
 });
