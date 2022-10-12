@@ -7,15 +7,15 @@ use Temidaio\TallComponents\TallComponentServiceProvider;
 
 class TestCase extends Orchestra
 {
+    /**
+     * @param $app
+     *
+     * @return array
+     */
     protected function getPackageProviders($app): array
     {
         return [
             TallComponentServiceProvider::class,
         ];
-    }
-
-    public function getEnvironmentSetUp($app): void
-    {
-        config()->set('testing');
     }
 }

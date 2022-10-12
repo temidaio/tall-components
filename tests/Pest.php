@@ -15,7 +15,7 @@ use Illuminate\Database\Eloquent\Model;
 use Temidaio\TallComponents\Tests\TestCase;
 
 uses(TestCase::class)
-    ->in('Feature', 'Unit');
+    ->in('Feature');
 
 /*
 |--------------------------------------------------------------------------
