@@ -1,16 +1,16 @@
 <?php
 
-namespace MichaelRubel\PackageTemplate\Tests;
+namespace Temidaio\TallComponents\Tests;
 
-use MichaelRubel\PackageTemplate\TemplateServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
+use Temidaio\TallComponents\TallComponentServiceProvider;
 
 class TestCase extends Orchestra
 {
     protected function getPackageProviders($app): array
     {
         return [
-            TemplateServiceProvider::class,
+            TallComponentServiceProvider::class,
         ];
     }
 

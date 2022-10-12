@@ -12,7 +12,7 @@
 */
 
 use Illuminate\Database\Eloquent\Model;
-use MichaelRubel\PackageTemplate\Tests\TestCase;
+use Temidaio\TallComponents\Tests\TestCase;
 
 uses(TestCase::class)
     ->in('Feature', 'Unit');

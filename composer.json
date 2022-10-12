@@ -1,48 +1,51 @@
 {
-    "name": "michael-rubel/laravel-package-template",
+    "name": "temidaio/tall-components",
     "description": "It is an example template for Laravel packages. Fill or change it the way you like.",
     "keywords": [
-        "michael-rubel",
-        "laravel",
-        "laravel-package-template"
+        "laravel blade components",
+        "tall components",
+        "tall stack components",
+        "blade components"
     ],
-    "homepage": "https://github.com/michael-rubel/laravel-package-template",
+    "homepage": "https://github.com/temidaio/tall-components",
     "license": "MIT",
     "authors": [
         {
             "name": "Michael Rubél",
-            "email": "contact@observer.name",
-            "role": "Author"
+            "email": "michael@laravel.software",
+            "role": "Backend Engineer"
+        },
+        {
+            "name": "Grzegorz Durtan",
+            "email": "garygiovanismith@gmail.com",
+            "role": "Frontend Developer"
         }
     ],
     "require": {
         "php": "^8.0",
         "illuminate/contracts": "^9.0",
-        "spatie/laravel-package-tools": "^1.11"
+        "spatie/laravel-package-tools": "^1.12"
     },
     "require-dev": {
         "nunomaduro/collision": "^6.0",
-        "nunomaduro/larastan": "^1.0",
         "phpunit/phpunit": "^9.5",
         "orchestra/testbench": "^7.4",
         "brianium/paratest": "^6.3",
         "mockery/mockery": "^1.4.4",
-        "roave/backward-compatibility-check": "^7.1",
         "pestphp/pest": "^1.16",
         "pestphp/pest-plugin-global-assertions": "^1.0",
         "pestphp/pest-plugin-laravel": "^1.1",
-        "pestphp/pest-plugin-mock": "^1.0",
         "pestphp/pest-plugin-parallel": "^0.2.0",
         "laravel/pint": "^1.2"
     },
     "autoload": {
         "psr-4": {
-            "MichaelRubel\\PackageTemplate\\": "src"
+            "Temidaio\\TallComponents\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MichaelRubel\\PackageTemplate\\Tests\\": "tests"
+            "Temidaio\\TallComponents\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -58,7 +61,7 @@
     "extra": {
         "laravel": {
             "providers": [
-              "MichaelRubel\\PackageTemplate\\TemplateServiceProvider"
+              "Temidaio\\TallComponents\\TallComponentServiceProvider"
             ]
         }
     },

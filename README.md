@@ -1,20 +1,11 @@
-# Laravel Package Template
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/michael-rubel/laravel-package-template.svg?style=flat-square&logo=packagist)](https://packagist.org/packages/michael-rubel/laravel-package-template)
-[![Total Downloads](https://img.shields.io/packagist/dt/michael-rubel/laravel-package-template.svg?style=flat-square&logo=packagist)](https://packagist.org/packages/michael-rubel/laravel-package-template)
-[![Code Quality](https://img.shields.io/scrutinizer/quality/g/michael-rubel/laravel-package-template.svg?style=flat-square&logo=scrutinizer)](https://scrutinizer-ci.com/g/michael-rubel/laravel-package-template/?branch=main)
-[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/michael-rubel/laravel-package-template.svg?style=flat-square&logo=scrutinizer)](https://scrutinizer-ci.com/g/michael-rubel/laravel-package-template/?branch=main)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/michael-rubel/laravel-package-template/run-tests/main?style=flat-square&label=tests&logo=github)](https://github.com/michael-rubel/laravel-package-template/actions)
-[![PHPStan](https://img.shields.io/github/workflow/status/michael-rubel/laravel-package-template/phpstan/main?style=flat-square&label=larastan&logo=laravel)](https://github.com/michael-rubel/laravel-package-template/actions)
+# TALL-stack components
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/temidaio/tall-components.svg?style=flat-square&logo=packagist)](https://packagist.org/packages/temidaio/tall-components)
+[![Total Downloads](https://img.shields.io/packagist/dt/temidaio/tall-components.svg?style=flat-square&logo=packagist)](https://packagist.org/packages/temidaio/tall-components)
+[![Code Quality](https://img.shields.io/scrutinizer/quality/g/temidaio/tall-components.svg?style=flat-square&logo=scrutinizer)](https://scrutinizer-ci.com/g/temidaio/tall-components/?branch=main)
+[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/temidaio/tall-components.svg?style=flat-square&logo=scrutinizer)](https://scrutinizer-ci.com/g/temidaio/tall-components/?branch=main)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/temidaio/tall-components/run-tests/main?style=flat-square&label=automated%20tests&logo=github)](https://github.com/temidaio/tall-components/actions)
 
-It is a ready template for Laravel packages.
-
-### What's inside
-- Basic skeleton with Service Provider and configuration file;
-- Laravel Package Tools by Spatie for easier package management;
-- PHPStan/larastan & Laravel Pint code quality checks;
-- Ready-to-use GitHub Action scripts for testing;
-
-Fill or change it the way you like.
+A bunch of layout or form components based on [TALL Stack](https://tallstack.dev).
 
 ---
 
@@ -26,17 +17,12 @@ The package requires PHP `8.x` and Laravel `9.x`.
 ## Installation
 Install the package using composer:
 ```bash
-composer require michael-rubel/laravel-package-template
+composer require temidaio/tall-components
 ```
 
 ## Usage
 ```php
-// Your description.
-```
-
-Publish the config:
-```bash
-php artisan vendor:publish --tag="package-template-config"
+// Coming soon...
 ```
 
 ## Testing
