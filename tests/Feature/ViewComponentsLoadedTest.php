@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Blade;
-
 use function Spatie\Snapshots\{assertMatchesSnapshot};
 
 test('button view component is registered', function () {
