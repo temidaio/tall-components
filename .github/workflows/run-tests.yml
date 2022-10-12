@@ -41,4 +41,4 @@ jobs:
           composer update --${{ matrix.stability }} --prefer-dist --no-interaction
 
       - name: Execute tests
-        run: ./vendor/bin/pest -d --without-creating-snapshots --coverage-clover build/clover.xml
+        run: ./vendor/bin/pest --coverage-clover build/clover.xml
