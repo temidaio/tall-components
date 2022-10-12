@@ -18,6 +18,8 @@ class TallComponentServiceProvider extends PackageServiceProvider
      */
     public function configurePackage(Package $package): void
     {
-        $package->name('tall-components');
+        $package
+            ->name('tall-components')
+            ->hasViews('tall');
     }
 }
