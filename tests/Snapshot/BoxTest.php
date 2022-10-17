@@ -8,3 +8,13 @@ test('box is registered and matches the snapshot', function () {
 
     assertMatchesSnapshot($html);
 });
+
+test('box with undefined color', function () {
+    $html = Blade::render('<x-tall::box :color="$color" />', ['color'=>0]);
+    assertMatchesSnapshot($html);
+});
+
+test('box with defined color', function () {
+    $html = Blade::render('<x-tall::box :color="$color" />', ['color'=>'primary']);
+    assertMatchesSnapshot($html);
+});
