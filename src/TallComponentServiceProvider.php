@@ -20,6 +20,7 @@ class TallComponentServiceProvider extends PackageServiceProvider
     {
         $package
             ->name('tall-components')
+            ->hasConfigFile('tall-components')
             ->hasViews('tall');
     }
 }
